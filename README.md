@@ -6,23 +6,23 @@ This project demonstrates **data cleaning and preprocessing** for the Titanic da
 
 ## 📂 Project Structure
 
-data-prep-project/
-│
-├─ data/
-│ └─ titanic.csv # Raw dataset
-│
-├─ scripts/
-│ ├─ test_load.py # Test dataset load & info check
-│ ├─ data_cleaning.py # Handle missing values, encode categorical, scale numerical
-│ └─ full_data_preprocessing.py # Complete preprocessing workflow + outlier removal
-│
-├─ notebooks/
-│ └─ data_prep.ipynb # Optional interactive Jupyter notebook
-│
-├─ outputs/
-│ └─ processed_titanic.csv # Cleaned & preprocessed dataset
-│
-└─ venv/ # Python virtual environment (ignored in Git)
+ data-prep-project/
+ │
+ ├─ data/
+ │ └─ titanic.csv # Raw dataset
+ │
+ ├─ scripts/
+ │ ├─ test_load.py # Test dataset load & info check
+ │ ├─ data_cleaning.py # Handle missing values, encode categorical, scale numerical
+ │ └─ full_data_preprocessing.py # Complete preprocessing workflow + outlier removal
+ │
+ ├─ notebooks/
+ │ └─ data_prep.ipynb # Optional interactive Jupyter notebook
+ │
+ ├─ outputs/
+ │ └─ processed_titanic.csv # Cleaned & preprocessed dataset
+ │
+ └─ venv/ # Python virtual environment (ignored in Git)
 
 ---
 
@@ -69,6 +69,7 @@ Check cleaned dataset:
 
 ```bash
 outputs/processed_titanic.csv
+
 💡 Notes
 Virtual environment (venv/) is ignored in GitHub.
 
@@ -83,5 +84,3 @@ Build simple models (Logistic Regression, Decision Tree, etc.)
 
 Exploratory Data Analysis (EDA) and feature selection
 
-yaml
-Copy code
