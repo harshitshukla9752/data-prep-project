@@ -71,4 +71,18 @@ Check cleaned dataset:
 outputs/processed_titanic.csv
 
 
+💡 Notes
+Virtual environment (venv/) is ignored in GitHub.
+
+Use requirements.txt to recreate the environment.
+
+This dataset is ready for machine learning model training.
+
+📈 Next Steps
+Train/test split for ML
+
+Build simple models (Logistic Regression, Decision Tree, etc.)
+
+Exploratory Data Analysis (EDA) and feature selection
+
 
