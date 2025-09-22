@@ -24,9 +24,6 @@ data-prep-project/
 │
 └─ venv/ # Python virtual environment (ignored in Git)
 
-markdown
-Copy code
-
 ---
 
 ## ✅ Features Implemented
@@ -60,20 +57,17 @@ git clone https://github.com/<username>/data-prep-project.git
 cd data-prep-project
 Create virtual environment & install dependencies:
 
-bash
-Copy code
+```bash
 python -m venv venv
 venv\Scripts\activate    # Windows
 pip install -r requirements.txt
 Run full preprocessing script:
 
-bash
-Copy code
+```bash
 python scripts/full_data_preprocessing.py
 Check cleaned dataset:
 
-bash
-Copy code
+```bash
 outputs/processed_titanic.csv
 💡 Notes
 Virtual environment (venv/) is ignored in GitHub.
